@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "title": "EquiSports",
+      "description": "This project showcases a responsive sports equipment website with animations and smooth transitions.EquiSports is a dynamic e-commerce platform built with React, Node.js, and MongoDB. It includes secure login and payment functionalities.",
+      "images": [
+        "https://i.ibb.co.com/hFdxZ4j/assignment-9-1.png",
+        "https://i.ibb.co.com/8sRFFB8/assignment-9-2.png",
+        "https://i.ibb.co.com/bsY2p4G/assignment-9-3.png"
+      ],
+      "liveLink": "https://gregarious-crostata-c9ae8a.netlify.app/",
+      "github": "https://github.com/programming-hero-web-course2/b10-a10-client-side-Ahad-Miah"
+    },
+    {
+      "title": "TutorHUb",
+      "description": "TutorHub is a dynamic e-commerce platform built with React, Node.js, and MongoDB. It includes secure login and payment functionalities.",
+      "images": [
+        "https://i.ibb.co.com/52fRxF2/assignment-11-1.png",
+        "https://i.ibb.co.com/k89bvdY/assignement-11-2.png",
+        "https://i.ibb.co.com/sJ4HPR6/assignment-11-3.png"
+      ],
+      "liveLink": "https://startling-brigadeiros-0c7e32.netlify.app/",
+      "github": "https://github.com/programming-hero-web-course2/b10a11-client-side-Ahad-Miah"
+    },
+    {
+      "title": "Project 3",
+      "description": "Project 3 is a real-time chat application built using WebSockets for communication. It allows users to send messages instantly.",
+      "images": [
+        "https://i.ibb.co.com/FJftsRP/assignment-10-1.png",
+        "https://i.ibb.co.com/HGrN6Y2/assignment-10-2.png",
+        "https://i.ibb.co.com/tXS5xDw/assignment-10-3.png"
+      ],
+      "liveLink": "https://bejewelled-swan-8d3859.netlify.app/",
+      "github": "https://github.com/programming-hero-web-course1/b10-a9-authentication-Ahad-Miah"
+    }
+  ]
+}
