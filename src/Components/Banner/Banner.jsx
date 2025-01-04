@@ -51,7 +51,7 @@ const Banner = () => {
   
           {/* Right Section */}
           <div className="relative flex-1 flex justify-center items-center lg:justify-end">
-            <div className="rounded-lg bg-[#182022] shadow-xl w-[250px] sm:w-[300px] md:w-[350px] h-[300px] sm:h-[350px] md:h-[400px] relative">
+            <div className="rounded-lg bg-[#7bff0081] shadow-xl w-[250px] sm:w-[300px] md:w-[350px] h-[300px] sm:h-[350px] md:h-[400px] relative">
               {/* Background box */}
             </div>
             <img
