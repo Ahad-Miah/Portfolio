@@ -1,16 +1,24 @@
 import React from 'react';
 import Drawer from '../Drawer/Drawer';
 import logo from '../../assets/logo.png'
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
     const links=<>
-     <li><a>Item 1</a></li>        
-     <li><a>Item 2</a></li>
-     <li><a>Item 3</a></li>
+    <NavLink to='/'>
+    <li className='font-semibold text-lg'><a>Home</a></li>  
+    </NavLink>
+      <NavLink to='/projects'>
+      <li className='font-semibold text-lg'><a>Projects</a></li>        
+        </NavLink>    
+    <NavLink to='/contact'>
+    <li className='font-semibold text-lg'><a>Contacts</a></li>   
+    </NavLink>
+         
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-[#28282E] *:text-white">
         <div className="navbar-start">
           <div className="dropdown">
             {/* drawer */}

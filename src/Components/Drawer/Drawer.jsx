@@ -13,7 +13,7 @@ const Drawer = ({links}) => {
         </div>
         <div className="drawer-side z-20">
             <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay bg-opacity-60 bg-black"></label>
-            <ul className="menu bg-white min-h-full w-[70%] p-6 space-y-4 shadow-xl rounded-tr-lg rounded-br-lg">
+            <ul className="menu bg-gray-700 min-h-full w-[70%] p-6 space-y-4 shadow-xl rounded-tr-lg rounded-br-lg">
                 {/* Sidebar content here */}
                {links}
             </ul>
