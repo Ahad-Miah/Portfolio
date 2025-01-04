@@ -4,7 +4,7 @@ import picture from '../../assets/picture.png'
 const Banner = () => {
 
     return (
-        <div className="bg-[#28282E] text-white min-h-screen flex items-center justify-center">
+        <div className="bg-gray-900 text-white min-h-screen flex items-center justify-center">
         <div className="container mx-auto px-6 md:px-12 lg:px-24 py-12 flex flex-col lg:flex-row items-center lg:items-center space-y-10 lg:space-y-0 lg:space-x-12">
           {/* Left Section */}
           <div className="text-center lg:text-left flex-1">
