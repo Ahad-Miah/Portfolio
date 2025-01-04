@@ -1,5 +1,6 @@
-import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 import picture from '../../assets/picture.png'
+import cv from '../../assets/Black Modern Professional Resume.pdf'
 
 const Banner = () => {
 
@@ -24,28 +25,31 @@ const Banner = () => {
             {/* Social Icons */}
             <div className="flex justify-center lg:justify-start space-x-4 mt-8">
               <a
-                href="#"
+                href="https://www.facebook.com/bappa.miah.98/"
+                target="_blank"
                 className="text-gray-400 hover:text-white text-2xl transition duration-200"
               >
                 <FaFacebook />
               </a>
               <a
-                href="#"
+                href="https://github.com/Ahad-Miah"
+                target='_blank'
                 className="text-gray-400 hover:text-white text-2xl transition duration-200"
               >
-                <FaTwitter />
+                <FaGithub />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/feed/"
+                target="_blank"
                 className="text-gray-400 hover:text-white text-2xl transition duration-200"
               >
                 <FaLinkedin />
               </a>
             </div>
             <div className="mt-6">
-              <button className="btn btn-primary bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded-lg transition duration-200">
-                Download CV
-              </button>
+              <a href={cv} download className="btn  bg-[#7bff0081] hover:bg-blue-500 text-white py-2 px-4 rounded-lg transition duration-200">
+                Download Resume
+              </a>
             </div>
           </div>
   
