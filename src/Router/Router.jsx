@@ -3,6 +3,7 @@ import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Pages/Home";
 import Projects from "../Pages/Projects";
 import Contact from "../Pages/Contact";
+import Details from "../Pages/Details";
 
 
 const Router = createBrowserRouter([
@@ -21,6 +22,11 @@ const Router = createBrowserRouter([
             {
                 path:'/contact',
                 element:<Contact></Contact>
+            },
+            {
+                path:'/details/:id',
+                loader:()=> fetch('/Projects.json'),
+                element:<Details></Details>
             }
         ]
     }

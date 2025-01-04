@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FaGithub, FaLink } from 'react-icons/fa';
+import { CgDetailsLess } from "react-icons/cg";
+import { Link } from 'react-router-dom';
 
 // const projects = [
 //     {
@@ -74,7 +76,7 @@ const Projects = () => {
                   <h3 className="text-2xl font-semibold text-gray-200 mb-2">
                     {project.title}
                   </h3>
-                  <p className="text-gray-400 mb-4">{project.description}</p>
+                  <p className="text-gray-400 mb-4">{project.description.slice(0,100)}</p>
                   <div className="flex justify-between items-center">
                     <a
                     title='Live Link'
@@ -85,6 +87,13 @@ const Projects = () => {
                     >
                       <FaLink size={24} />
                     </a>
+                    <Link to={`/details/${project.id}`}
+                    title='Details'
+                      rel="noopener noreferrer"
+                      className="text-blue-400 hover:text-blue-500 transition duration-300"
+                    >
+                      <CgDetailsLess size={24} />
+                    </Link>
                     <a
                     title='github repository'
                       href={project.github}

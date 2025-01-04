@@ -18,7 +18,7 @@ const Navbar = () => {
 
   </>
   return (
-    <div className="navbar bg-gray-900 *:text-white sticky z-10 top-0">
+    <div className="navbar bg-gray-900 *:text-white sticky z-10 top-0 md:px-9">
       <div className="navbar-start">
         <div className="dropdown">
           {/* drawer */}

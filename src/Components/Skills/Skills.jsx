@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase, FaJava } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase, FaJava, FaFire } from "react-icons/fa";
 import { SiTailwindcss, SiExpress, SiMongodb } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -12,6 +12,7 @@ const Skills = () => {
         { name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
         { name: "JavaScript", icon: <FaJs className="text-yellow-500" /> },
         { name: "React", icon: <FaReact className="text-cyan-500" /> },
+        { name: "Firebase", icon: <FaFire className="text-cyan-500" /> },
         { name: "TailwindCSS", icon: <SiTailwindcss className="text-teal-400" /> },
         { name: "DaisyUI", icon: <SiTailwindcss className="text-indigo-400" /> },
       ],
