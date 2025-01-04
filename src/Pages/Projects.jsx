@@ -24,7 +24,6 @@ const Projects = () => {
         .then(res=>res.json())
         .then(data=>setProjects(data.projects));
     },[])
-    console.log(projects);
     const [currentSlide, setCurrentSlide] = useState(0);
 
   const handleNextSlide = () => {
