@@ -3,7 +3,7 @@ import React from 'react';
 const Education = () => {
     const educationData = [
         {
-          year: "Running",
+          year: "Jul 2023 - present",
           degree: "Bachelor of Science in Computer Science and Engineering",
           institution: "City University",
           description:
@@ -37,7 +37,7 @@ const Education = () => {
                 className="flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-6 bg-gray-800 p-6 rounded-lg shadow-lg"
               >
                 <div className="flex-shrink-0">
-                  <div className="bg-[#7bff00] text-white text-lg font-bold px-4 py-2 rounded-md">
+                  <div className="bg-[#7bff0081] text-white text-lg font-bold px-4 py-2 rounded-md">
                     {item.year}
                   </div>
                 </div>

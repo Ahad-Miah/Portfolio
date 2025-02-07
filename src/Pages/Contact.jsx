@@ -97,8 +97,8 @@ const Contact = () => {
           <div className="lg:w-1/3 mt-8 lg:mt-0 bg-gray-800 p-8 rounded-lg shadow-lg flex flex-col justify-center items-center">
             <h3 className="text-2xl font-semibold mb-4">Reach Me On</h3>
             <div className='flex flex-col'>
-              <a className="text-gray-300 hover:text-gray-400 transition duration-300" href="tel:01745007673">Phone:01745007673</a>
-              <a className="text-gray-300 hover:text-gray-400 transition duration-300" href="mailto:ahadahmedcc@gmail.com">Email:ahadahmedcc@gmail.com</a>
+              <a className="text-gray-300 hover:text-gray-400 transition duration-300" href="tel:01745007673">Phone: <span className='underline'>01745007673</span></a>
+              <a className="text-gray-300 hover:text-gray-400 transition duration-300 my-3" href="mailto:ahadahmedcc@gmail.com">Email: <span className='underline'>ahadahmedcc@gmail.com</span></a>
             </div>
             <div className="flex space-x-6 text-3xl">
               <a
@@ -110,7 +110,7 @@ const Contact = () => {
                 <FaFacebook />
               </a>
               <a
-                href="https://www.linkedin.com/feed/"
+               href="http://www.linkedin.com/in/md-ahad-miah"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-700 hover:text-blue-800 transition duration-300"

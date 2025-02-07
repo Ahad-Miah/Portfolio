@@ -1,6 +1,6 @@
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 import picture from '../../assets/picture.png'
-import cv from '../../assets/Black Modern Professional Resume.pdf'
+import cv from '../../assets/resume_of_web_dev_ahad miah.pdf'
 
 const Banner = () => {
 
@@ -16,7 +16,7 @@ const Banner = () => {
               Md Ahad Miah
             </h1>
             <h3 className="text-lg md:text-2xl font-medium mt-2">
-              Creative Web Designer & Passionate Web Developer
+             Front End Web Developer
             </h3>
             <p className="text-gray-400 mt-6 leading-relaxed">
               I craft stunning and functional digital experiences that bridge the gap between creativity and technology. With expertise in modern web design and development, I help businesses and individuals establish a powerful online presence.  
@@ -39,7 +39,7 @@ const Banner = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://www.linkedin.com/feed/"
+                href="http://www.linkedin.com/in/md-ahad-miah"
                 target="_blank"
                 className="text-gray-400 hover:text-white text-2xl transition duration-200"
               >
@@ -61,7 +61,7 @@ const Banner = () => {
             <img
               src={picture}
               alt="Md Ahad Miah"
-              className="absolute bottom-0 left-4 sm:bottom-14 lg:bottom-0 md:-bottom-0 md:left-6 lg:-right-12 sm:right-auto right-4 w-[500px] sm:w-[250px] md:w-[700px] lg:w-[1000px] lg:left-28"
+              className="absolute bottom-0 left-4 sm:bottom-14 lg:bottom-0 md:-bottom-0 md:left-6 lg:-right-12 sm:right-auto right-4 w-[500px] sm:w-[250px] md:w-[700px] lg:w-[1000px] lg:left-10  xl:left-28 2xl:left-40 "
             />
           </div>
         </div>

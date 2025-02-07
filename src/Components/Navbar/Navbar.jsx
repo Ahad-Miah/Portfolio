@@ -2,7 +2,7 @@ import React from 'react';
 import Drawer from '../Drawer/Drawer';
 import logo from '../../assets/logo.png'
 import { NavLink } from 'react-router-dom';
-import cv from '../../assets/Black Modern Professional Resume.pdf'
+import cv from '../../assets/resume_of_web_dev_ahad miah.pdf'
 const Navbar = () => {
 
   const links = <>

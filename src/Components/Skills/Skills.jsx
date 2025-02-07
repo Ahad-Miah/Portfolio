@@ -8,21 +8,22 @@ const Skills = () => {
 
     const skills = {
       frontend: [
-        { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
-        { name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
-        { name: "JavaScript", icon: <FaJs className="text-yellow-500" /> },
-        { name: "React", icon: <FaReact className="text-cyan-500" /> },
-        { name: "Firebase", icon: <FaFire className="text-cyan-500" /> },
-        { name: "TailwindCSS", icon: <SiTailwindcss className="text-teal-400" /> },
-        { name: "DaisyUI", icon: <SiTailwindcss className="text-indigo-400" /> },
+        { name: "HTML", skill:80, icon: <FaHtml5 className="text-orange-500" /> },
+        { name: "CSS", skill:70, icon: <FaCss3Alt className="text-blue-500" /> },
+        { name: "JavaScript",skill:60, icon: <FaJs className="text-yellow-500" /> },
+        { name: "React",skill:70, icon: <FaReact className="text-cyan-500" /> },
+        { name: "Firebase",skill:80, icon: <FaFire className="text-cyan-500" /> },
+        { name: "TailwindCSS",skill:90, icon: <SiTailwindcss className="text-teal-400" /> },
+        { name: "DaisyUI",skill:90, icon: <SiTailwindcss className="text-indigo-400" /> },
       ],
       backend: [
-        { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
-        { name: "Express.js", icon: <SiExpress className="text-gray-500" /> },
-        { name: "MongoDB", icon: <SiMongodb className="text-green-700" /> },
+        { name: "Node.js",skill:40, icon: <FaNodeJs className="text-green-500" /> },
+        { name: "Express.js",skill:50, icon: <SiExpress className="text-gray-500" /> },
+        { name: "MongoDB",skill:40, icon: <SiMongodb className="text-green-700" /> },
       ],
       learning: [
-        { name: "Java", icon: <FaJava className="text-red-500" /> },
+        { name: "Java",skill:40, icon: <FaJava className="text-red-500" /> },
+        { name: "NextJs",skill:36, icon: <FaJs className="text-red-500" /> },
       ],
     };
     return (
@@ -67,10 +68,11 @@ const Skills = () => {
             <motion.div
               key={index}
               whileHover={{ scale: 1.05 }}
-              className="bg-gray-700 w-full sm:w-40 h-32 rounded-lg shadow-md flex flex-col items-center justify-center space-y-4 transform transition duration-300 hover:shadow-lg"
+              className="bg-gray-700 w-full sm:w-40 h-32 rounded-lg shadow-md flex flex-col items-center justify-center space-y-4 transform transition duration-300 hover:shadow-lg px-3"
             >
               <div className="text-3xl">{skill.icon}</div>
               <h3 className="text-lg font-semibold">{skill.name}</h3>
+              <progress className={`progress  ${activeTab === "frontend"?"progress-error":""} ${activeTab === "backend"?"progress-primary":""} ${activeTab === "learning"?"progress-success":""}`} value={skill.skill} max="100"></progress>
             </motion.div>
           ))}
         </motion.div>

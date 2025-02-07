@@ -23,7 +23,7 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     const [projects,setProjects]=useState([]);
     useEffect(()=>{
-        fetch('../../public/Projects.json')
+        fetch('/Projects.json')
         .then(res=>res.json())
         .then(data=>setProjects(data.projects));
     },[])
